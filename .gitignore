@@ -1,0 +1,38 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+
+# Archivos de bytecode de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Secretos y credenciales (¡CRÍTICO!)
+.streamlit/secrets.toml
+.env
+.venv
+secrets.toml
+
+# Archivos de caché y logs de Streamlit
+.streamlit/cache/
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de editores (opcional, según prefieras)
+.vscode/
+.idea/
+*.swp
+*~
+
+# Archivos de distribución/packaging
+*.egg-info/
+dist/
+build/
+
+# Archivos de cobertura de pruebas
+.coverage
+htmlcov/
